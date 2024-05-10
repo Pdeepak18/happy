@@ -1,7 +1,88 @@
-.App {
-  text-align: center;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
 }
 
+.AppHome {
+  text-align: center;
+  height: 100vh;
+  max-width: 100vw;
+    background-image: url("/public/assets/starry-night-sky_1048-11828.avif");
+    color: white;
+}
+
+.QuizContainer{
+  text-align: center;
+    height: 100vh;
+    max-width: 100vw;
+    background-image: url("/public/assets/starry-night-sky_1048-11828.avif");
+    color: white;
+}
+
+.head{
+  font-size: 50px;
+  font-weight: 400;
+  padding-top: 40px;
+}
+
+.text-p{
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+.buttons {
+  margin-bottom: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  /* Green */
+  color: white;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.down{
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+
+}
+.dnd{
+  cursor:  not-allowed;
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  z-index: 999;
+}
+.flex-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  /* Optional: center the modals horizontally */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +117,4 @@
     transform: rotate(360deg);
   }
 }
+
