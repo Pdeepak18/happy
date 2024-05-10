@@ -41,7 +41,7 @@ const Quiztime = () => {
               : selectedOption === "pluto.jpeg"
               ? "pluto"
               : selectedOption === "moon.jpg"
-              ? "😅😄😃. haa haa itna bhi aacha nhi hai par yaar khushi tujhe dekhta hu na toh bass voh chand nazar aata hai bhot bhot kuch socha hu yaar tere liye par merse at the mark chizze nhi kar paaata .khushi yaar yehh hi photo daalne ka reason hai ki yeh photo mai tu gor se dekhegi na tu khud khudse pyaar karne lagegi yaar itna itna itna aacha hai na photo ki maine hazaro baar yeh photo dekh li hai.....aur haa jaisa aaj hu vaisa kal bhi rahunga khushi tere liye.yaar mujhe likhna bhot kuch hai par mai chahta hu ki yeh saari cheeze mai tujhe saamne saamne bolu"
+              ? "😅😄😃. haa haa itna bhi aacha nhi hai par yaar khushi tujhe dekhta hu na toh bass voh chand nazar aata hai bhot bhot kuch socha hu yaar tere liye par merse at the mark chizze nhi kar paaata .khushi yaar yehh hi photo daalne ka reason hai ki yeh photo mai tu gor se dekhegi na tu khud khudse pyaar karne lagegi yaar itna itna itna aacha hai na photo ki maine hazaro baar yeh photo dekh li hai.....aur haa jaisa aaj hu vaisa kal bhi rahunga khushi tere liye.yaar mujhe likhna bhot kuch hai par mai chahta hu ki yeh saari cheeze mai tujhe saamne saamne bolu ... aur haaa yeh link yaad rakhna bhot kuch update yaha pe karte rahunga"
               : null}
               </div>
           </div>
