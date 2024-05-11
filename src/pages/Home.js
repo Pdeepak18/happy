@@ -34,6 +34,12 @@ const Home  =  () => {
           <button onClick={handleNoClick}>No</button>
         </div>
 
+        <div class="bounce">
+          <a href="/audio" style={{ textDecoration: "none", color: "black" }}>
+            Audio  🔽
+          </a>
+        </div>
+
         <Modal
           isOpen={showYesModal}
           onRequestClose={closeYesModal}
@@ -60,10 +66,7 @@ const Home  =  () => {
               unforgettable 😁.
             </p>
 
-            <a
-              href="/quiztime"
-              style={{ textDecoration: "", color: "black" }}
-            >
+            <a href="/quiztime" style={{ textDecoration: "", color: "black" }}>
               {"Chaliye shuru karte hai"}
             </a>
           </div>
@@ -107,7 +110,15 @@ const Home  =  () => {
                   Chale !!
                 </a>
               </button>
-              <button onClick={handleNoClick} className="dnd" onMouseOver={()=>{<p>{"Karna hi padega"}</p>;}}>Ya Abhi bhi doubt hai</button>
+              <button
+                onClick={handleNoClick}
+                className="dnd"
+                onMouseOver={() => {
+                  <p>{"Karna hi padega"}</p>;
+                }}
+              >
+                Ya Abhi bhi doubt hai
+              </button>
             </div>
           </div>
         </Modal>
