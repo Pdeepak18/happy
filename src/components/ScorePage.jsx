@@ -41,10 +41,14 @@ const ScorePage = () => {
           ) : (
             <button className="btn textcenter">
               Chal koi na !! Ek aur chance deta hu tujhe there is code hidden in
-              these /story1 page  if you are smart then find it...{" "}
-              <a href="/story1" style={{ textDecoration: "none", color: "white" }}>
+              these /story1 page if you are smart then find it...{" "}
+              <a
+                href="/story1"
+                style={{ textDecoration: "none", color: "white" }}
+              >
                 Click here
               </a>
+              &nbsp; And if you don't get the code please contact me on whatsapp
             </button>
           )}
         </div>

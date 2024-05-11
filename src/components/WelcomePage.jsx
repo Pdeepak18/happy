@@ -13,6 +13,7 @@ const WelcomePage = () => {
         <div className="description">
           <p>You will be presented with 2 MCQs on cybersecurity and 1 general. (Don't google it)</p>
           <p>Can you score 100%?</p>
+          <p>Chalo dekhte hai kitni meri baate yaad hai aapko</p>
         </div>
         <div>
           <button className="btn" onClick={() => navigate("/quiz")}>
